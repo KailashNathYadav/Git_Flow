@@ -1,0 +1,18 @@
+The Git Workflow
+
+* Working Directory: The current state of your project files.
+* Staging Area : A place where you can group changes before committing them.
+* Repository : The history of your project, including all committed changes.
+
+Various Command: 
+* git init: New git repo is initialized in current project root.
+* git status: show status of file that is untracked, tracked, staged.
+* git log: show all commit so far.
+* git add: add file to staging area.
+* git commit -m "your message": commiting with your message.
+* git commit -a -m "your message": git commit skipping staging area.
+* git branch: show all branch.   
+* git branch branch_name: create new branch.
+* git checkout branch_name: switched to different branch.
+* git checkout feature-a;git rebase main: rebase the feature-a branch on top of main
+* git checkout main;git merge feature-a: merges feature-a into main
